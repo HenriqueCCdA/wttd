@@ -11,12 +11,12 @@ Sistema de Eventos encomendado pela Morena.
 5. Configure a instância com o .env
 6. Execute os testes
 
-```consolse
+```console
 git clone git@github.com:HenriqueCCdA/wttd.git wttd
 cd wttd
 python -m venv .wttd
 source .wttd/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.p test
 ```
